@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1734333934999334914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 827.93
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.29
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5008.981
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      propertyPath: m_Name
+      value: pineapple
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5660322199189463684}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8011443875928798269}
+  m_SourcePrefab: {fileID: 100100000, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+--- !u!1 &1499978327703113043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9311a73d80788a543b4be82b5b53730a, type: 3}
+  m_PrefabInstance: {fileID: 1734333934999334914}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &5660322199189463684
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499978327703113043}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.6695471
+  m_Height: 1.3390942
+  m_Direction: 1
+  m_Center: {x: -0.3063615, y: 0.0014070953, z: -0.24080396}
+--- !u!114 &8011443875928798269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499978327703113043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e11f965ec761154aa418ab81b4f3fe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FoodPickupInteract
+  uiMessage: {fileID: 0}
+  eatParticlesPrefab: {fileID: 8206102140988423206, guid: 281081ad6accd3c41b6971c4bb486076, type: 3}
+  eatSound: {fileID: 8300000, guid: a0a38ab45f63d2f4d9f95a47153f02f0, type: 3}
+  soundVolume: 1
